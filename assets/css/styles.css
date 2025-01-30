@@ -10,7 +10,8 @@ body{
   
   .card{
     font-family: "Candara", sans-serif;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
     overflow: hidden;
     background: #fff;
@@ -99,9 +100,8 @@ body{
   
   @media (max-width: 768px) {
     .card {
-      width: 95%;
-      max-width: fit-content;
-      height: auto;
+      width: 80%;
+      max-width: none;
     }
   
     .profile-image img {
