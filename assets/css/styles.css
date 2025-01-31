@@ -102,6 +102,7 @@ body{
     .card {
       width: 80%;
       max-width: none;
+      height: auto;
     }
   
     .profile-image img {
